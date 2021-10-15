@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <title>Hello, world!</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar-nav :hover{
+            text-decoration: underline;
+            
+        }
+        ul{
+            list-style-type: none;
+        }
+        .v1{
+            font-size: 100px;
+            text-align: center;
+        }
+        i{
+            padding: 0px 50px;
+        }
+        .vikas{
+            display: flex;
+            height: 400px;
+            
+        }
+        .vka{
+            height: 200px;
+            background-color: gray;
+            padding-top: 40px;
+            text-align: center;
+            color: white;
+        }
+        .m2{
+            font-size: 40px;
+        }
+        .m4{
+            height: 400px;
+            background-color: rgb(175, 172, 172);
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 30px;
+            color: white;
+        }
+        .carousel-inner{
+            display: flex;
+            height: 400px;
+            width: 100%;
+        }
+        .ll{
+            /* font-size: 15px; */
+            padding: 80px;
+            padding-top: 100px;
+        }
+        .v2{
+            display: block;
+            text-align: center;
+            padding: 50px;
+        }
+        
+    </style>
+  </head>
+  <body>
+  
+<div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <i class="bi bi-instagram text-primary"></i></a>
+                <a class="navbar-brand" href="#"> MICROSOFT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarID"
+                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarID">
+                    <div class="navbar-nav">
+                        <a class="nav-link active hover" aria-current="page" href="#">microsoft 365</a>
+                        <a class="nav-link active" aria-current="page" href="#">office</a>
+                        <a class="nav-link active" aria-current="page" href="#">windows</a>
+                        <a class="nav-link active" aria-current="page" href="#">surface</a>
+                        <a class="nav-link active" aria-current="page" href="#">xbox</a>
+                        <a class="nav-link active" aria-current="page" href="#">support</a>
+
+                    </div>
+                   
+                    <div class="dropdown  ms-auto  ">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">click me</button>
+                        <ul class="dropdown-menu dropdown-menu-light ">
+                            <li><a class="dropdown-item" href="">home</a></li>                        
+                            <li><a class="dropdown-item" href="">about</a></li>
+                            <li><a class="dropdown-item" href="">contact</a></li>
+                            <li><a class="dropdown-item" href="">gallery</a></li>
+                            <li><a class="dropdown-item" href="">home</a></li>                        
+                            <li><a class="dropdown-item" href="">about</a></li>
+                            <li><a class="dropdown-item" href="">contact</a></li>
+                            <li><a class="dropdown-item" href="">gallery</a></li>
+                            <li><a class="dropdown-item" href="">home</a></li>                        
+                        </ul>
+                        
+                       </div>
+                       <div class="mx-auto">
+                        <i class="bi bi-search pe-3 "></i>
+                        <i class="bi bi-basket pe-3"></i>
+                        <i class="bi bi-person-circle pe-3"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+        <div class="carousel slide" data-bs-ride="carousel" id="vi">
+          <div class="carousel-inner ">
+               <div class="carousel-item active vh-100 " data-bs-interval="2000m">
+               <img src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="w-100">               
+        </div>
+               <div class="carousel-item  vh-100" data-bs-interval="2000m">
+        <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="w-100">
+    </div>
+    <div class="carousel-item  vh-100" data-bs-interval="2000m">
+        <img src="https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="w-100">
+    </div>
+    
+     
+    <button class="carousel-control-prev" data-bs-target="#vi" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon "></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#vi" data-bs-slide="next">
+        <span class="carousel-control-next-icon "></span>
+        </button>
+        <div class="carousel-indicators">
+            <button class="active bg-success" type="button" data-bs-slide-to="0" data-bs-target="#vi"></button>
+            <button class=" bg-warning" type="button" data-bs-slide-to="1" data-bs-target="#vi"></button>
+            <button class=" bg-warning" type="button" data-bs-slide-to="2" data-bs-target="#vi"></button>
+
+         </div>
+             </div>
+            </div>
+            <br>
+            <div class="v1">
+                <i class="bi bi-people-fill">
+                </i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+             </div> 
+            <div class="v2"> 
+                <a class="ll" href="">microsoft</a>
+                <a class="ll" href="">microsoft</a>
+                <a class="ll" href="">microsoft</a>
+                <a class="ll" href="">microsoft</a>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                         <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum? <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum?
+                        <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum?
+                        <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum?
+                        <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+            </div>
+            <br><br>
+            <div class="vikas">
+                <img src="https://images.unsplash.com/photo-1632478997798-720e5f10c235?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="w-100">
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                         <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum? <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum?
+                        <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum?
+                        <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+                <div class="col-sm-3 ">
+                    <div class="card">
+                    <div class="card-header" style="height: 180px; ">
+                        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NOmL?ver=1c8f&q=90&m=6&h=157&w=279&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="" class="w-100 ">
+                    </div>
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptatum?
+                        <br>
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+        </div>
+            </div><br><br>
+            <div class="vka">
+                <h4 >
+                    Microsoft’s response to COVID-19
+                    Read how we’re <br>responding to the COVID-19 outbreak, and get resources to help.
+                    
+                    </h4>
+                    <a href="" style="font-size: 20px; padding-top: 10px;">learn more > </a>
+            </div>
+            <div class="m2">
+                <p>follow microsoft</p>
+                <i class="bi bi-twitter text-primary"></i>
+                <i class="bi bi-facebook text-primary"></i>
+                <i class="bi bi-instagram text-danger"></i>
+            </div>
+</div>
+<br><br>
+<div class="m4">
+    <div>
+<h2>microsoft</h2>
+<p>vikas </p>
+<p>javascript </p>
+<p>html/css </p>
+<p>react </p>
+<p>angular </p>
+</div>
+    <div>
+<h2>microsoft</h2>
+<p>vikas </p>
+<p>javascript </p>
+<p>html/css </p>
+<p>react </p>
+<p>angular </p>
+</div>
+    <div>
+<h2>microsoft</h2>
+<p>vikas </p>
+<p>javascript </p>
+<p>html/css </p>
+<p>react </p>
+<p>angular </p>
+</div>
+    <div>
+<h2>microsoft</h2>
+<p>vikas </p>
+<p>javascript </p>
+<p>html/css </p>
+<p>react </p>
+<p>angular </p>
+</div>
+    <div>
+<h2>microsoft</h2>
+<p>vikas </p>
+<p>javascript </p>
+<p>html/css </p>
+<p>react </p>
+<p>angular </p>
+</div>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>
